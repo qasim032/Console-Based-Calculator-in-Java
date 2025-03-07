@@ -25,7 +25,7 @@ git clone https://github.com/qasim032/Console-Based-Calculator.git
 ✨ Example Usage
 -----------------------------------------------------------
 🎉 Welcome to simple calculator 🎉
-Choose one of the following options
+Choose one of the following options:
  1. ➕ Add
  2. ➖ Subtract
  3. ✖️ Multiply
@@ -40,4 +40,5 @@ Now, enter the second number: 5
 The result of the operations is: 50 🎯
 👨‍💻 Author
 
-Syed Muhammad Qasim 🚀
+Syed Muhammad Qasim 🚀  
+GitHub Profile

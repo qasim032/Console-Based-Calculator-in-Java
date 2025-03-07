@@ -18,13 +18,18 @@ public class Main {
             System.out.println(" 7. Exit");
             System.out.print("\nNow enter your choice ");
             choice = input.nextInt();
-            if(choice == 7){
+            if (choice == 7) {
+                System.out.println("Exiting the calculator. Goodbye!");
                 break;
             }
-                System.out.print("Please enter the first number :");
-                num1 = input.nextInt();
-                System.out.print("Now, enter the second number :");
-                num2 = input.nextInt();
+            if (choice > 7 || choice < 1) {
+                System.out.println("Invalid Choice.Please enter a number between 1-7");
+                continue;
+            }
+            System.out.print("Please enter the first number :");
+            num1 = input.nextInt();
+            System.out.print("Now, enter the second number :");
+            num2 = input.nextInt();
 
             switch (choice) {
                 case 1:
@@ -37,10 +42,18 @@ public class Main {
                     System.out.println("The result of the operations is : " + (num1 * num2));
                     break;
                 case 4:
-                    System.out.println("The result of the operations is : " + (num1 / num2));
+                    if (num2 == 0) {
+                        System.out.println("Division by zero is not allowed");
+                    } else {
+                        System.out.println("The result of the operations is : " + (num1 / num2));
+                    }
                     break;
                 case 5:
-                    System.out.println("The result of the operations is : " + (num1 % num2));
+                    if (num2 == 0) {
+                        System.out.println("Modulus by zero is not allowed.");
+                    } else {
+                        System.out.println("The result of the operations is : " + (num1 % num2));
+                    }
                     break;
                 case 6:
                     int result = 1;

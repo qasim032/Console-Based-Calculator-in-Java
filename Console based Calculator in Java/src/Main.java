@@ -56,7 +56,7 @@ public class Main {
                     }
                     break;
                 case 6:
-                    int result = 1;
+                    float result = 1;
                     for (int i = 1; i <= num2; i++)
                         result *= num1;
                     System.out.println("The result of the operations is : " + result);

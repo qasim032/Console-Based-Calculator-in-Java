@@ -6,7 +6,7 @@ public class Main {
         int choice;
         do {
             System.out.println("-----------------------------------------------------------");
-            int num1, num2;
+            float num1, num2;
             System.out.println("Welcome to simple calculator");
             System.out.println("Choose one of the following options");
             System.out.println(" 1. Add");
@@ -27,9 +27,9 @@ public class Main {
                 continue;
             }
             System.out.print("Please enter the first number :");
-            num1 = input.nextInt();
+            num1 = input.nextFloat();
             System.out.print("Now, enter the second number :");
-            num2 = input.nextInt();
+            num2 = input.nextFloat();
 
             switch (choice) {
                 case 1:

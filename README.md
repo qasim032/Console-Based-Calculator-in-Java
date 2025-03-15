@@ -42,3 +42,5 @@ The result of the operations is: 50 🎯
 
 Syed Muhammad Qasim 🚀  
 GitHub Profile
+![image](https://github.com/user-attachments/assets/ed804a2b-87db-4923-a67b-00a735ce283a)
+
